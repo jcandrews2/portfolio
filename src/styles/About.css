@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=EB+Garamond&family=Inconsolata:wght@500&family=Merriweather:wght@700&family=Nunito+Sans:opsz,wght@6..12,200&family=Reenie+Beanie&display=swap');
+
+img[src*="jpeg"] {
+    height: auto;
+    width: 40%;
+    align-self: flex-start;
+    padding-right: 20px;
+} 
+
+.about { 
+    padding: 80px 40px 40px 40px;
+    display: flex;
+    line-height: 20pt;
+}
+
+.about-text { 
+    padding-left: 20px;
+}
+
+#about-header { 
+    font-family: 'Inconsolata', monospace;
+}
