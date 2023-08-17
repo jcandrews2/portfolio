@@ -1,0 +1,10 @@
+.resume { 
+    padding: 80px 40px 40px 40px;
+    flex: 1 1 auto;
+    overflow: auto;
+}
+
+#resume { 
+    height: auto;
+    width: 100%;
+}

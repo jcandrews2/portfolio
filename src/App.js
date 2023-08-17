@@ -2,6 +2,8 @@ import "./styles/App.css";
 import "./styles/Navbar.css";
 import "./styles/About.css";
 import "./styles/Footer.css";
+import "./styles/Contact.css";
+import "./styles/Resume.css";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Resume from "./components/Resume";

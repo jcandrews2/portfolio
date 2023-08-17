@@ -11,11 +11,7 @@
 
 .navbar { 
     width: 210px;
-}
-
-.about { 
-    flex: 1 1 auto;
-    overflow: auto;
+    height: 450px;
 }
 
 h1 { 

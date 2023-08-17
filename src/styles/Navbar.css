@@ -36,10 +36,9 @@ ul {
 }
 
 ul:hover li a{ 
-    color: grey;
+    color: lightgrey;
 }
 
 ul li a:hover{ 
     color: black;
 }
-
