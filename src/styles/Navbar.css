@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=EB+Garamond&family=Inconsolata:wght@500&family=Merriweather:wght@700&family=Nunito+Sans:opsz,wght@6..12,200&family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&display=swap');
 
 ul { 
     list-style-type: none;
@@ -9,30 +9,29 @@ ul {
     font-size: 15px;
     color: black;
     display: block;
-    padding: 40px 0px 0px 40px;
+    padding: 20px 20px 20px 40px;
 }
 
 .resume-page { 
     font-size: 15px;
     color: black;
     display: block;
-    padding: 40px 0px 0px 40px;
+    padding: 20px 20px 20px 40px;
 }
 
 .contact-page { 
     font-size: 15px;
     color: black;
     display: block;
-    padding: 40px 0px 0px 40px;
+    padding: 20px 20px 20px 40px;
 }
 
 .home-page { 
-    font-family: 'Inconsolata', monospace;
-    font-weight: 900;
-    font-size: 50px;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 40px;
     color: black;
     display: block;
-    padding: 40px 40px 0px 40px;
+    padding: 40px 40px 20px 40px;
 }
 
 ul:hover li a{ 
@@ -41,4 +40,36 @@ ul:hover li a{
 
 ul li a:hover{ 
     color: black;
+}
+
+.lineUnder { 
+    position: relative; 
+    margin-left: 42px;
+    width: 30px;
+    height: 1px;
+    background: Black;
+}
+
+.lineOver { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 1px;
+    background: white;
+}
+
+ul li:hover .lineOver { 
+    animation-name: animate;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+     }
 }

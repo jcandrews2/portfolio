@@ -1,15 +1,9 @@
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import styles from "../styles/navbar.module.css";
+import React, { useState } from "react";
 
 const Navbar = () => {
-  const [className, setClassName] = useState("lineOver");
   return (
-    <div
-      className="navbar"
-      onMouseEnter={() => setClassName("lineOverAnimate")}
-      onMouseLeave={() => setClassName("lineOver")}
-    >
+    <div className="navbar">
       <nav>
         <Link to="/about" className="home-page">
           James
@@ -21,22 +15,28 @@ const Navbar = () => {
             <Link to="/about" className="about-page">
               About
             </Link>
+            <div className="lineUnder">
+              <div className="lineOver"></div>
+            </div>
           </li>
           <li>
             <Link to="/resume" className="resume-page">
               Resume
             </Link>
+            <div className="lineUnder">
+              <div className="lineOver"></div>
+            </div>
           </li>
           <li>
             <Link to="/contact" className="contact-page">
               Contact
             </Link>
+            <div className="lineUnder">
+              <div className="lineOver"></div>
+            </div>
           </li>
         </ul>
       </nav>
-      <div className={styles.lineUnder}>
-        <div className={styles[className]}></div>
-      </div>
     </div>
   );
 };
