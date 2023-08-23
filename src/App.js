@@ -9,7 +9,7 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
       </div>
 
       <Routes>
+        <Route path="/" element={<Navigate to="/about" replace={true} />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
