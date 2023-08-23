@@ -11,15 +11,16 @@ const About = () => {
       <div className="about-text">
         <h1 id="about-header"> About James Andrews</h1>
         <p>
-          Hi! My name is James Andrews, but I go by Jimmy. I was born and raised
-          in Kansas City, Missouri. I'm currently in my junior year pursuing a
-          B.A. in Computer Science at Colorado College in Colorado Springs and I
-          also play tennis at the NCAA Division III level.
+          Hi! It's James Andrews— but I go by Jimmy. I was born and raised in
+          Kansas City, Missouri. I'm currently in my junior year pursuing a B.A.
+          in Computer Science. I attend Colorado College in Colorado Springs
+          where I play collegiate tennis at the NCAA Division III level.
           <br />
           <br />
-          My interests lie in problem solving and building. Explore my website
-          to see my professional experience, contact information, or visit my
-          LinkedIn. Feel free to reach out!
+          My interests include problem solving, technology, gaming, and building
+          things with code. Explore my website to learn more about my
+          professional experience. Feel free to reach out to me via email or
+          through LinkedIn!
         </p>
       </div>
     </div>
