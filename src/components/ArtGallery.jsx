@@ -1,6 +1,6 @@
 import React from 'react';
+import '../styles/ArtGallery.css';
 
-// Import all images dynamically
 const artImages = [
   { src: require('../media/Art_1.jpg'), alt: 'Artwork 1' },
   { src: require('../media/Art_2.jpg'), alt: 'Artwork 2' },

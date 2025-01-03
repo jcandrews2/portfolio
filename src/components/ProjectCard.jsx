@@ -1,3 +1,5 @@
+import React from 'react';
+import '../styles/ProjectCard.css';
 import IconRenderer from './IconRenderer';
 
 const ProjectCard = (props) => {

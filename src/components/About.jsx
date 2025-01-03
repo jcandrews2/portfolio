@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/About.css';
 import tuneLinkVideo from '../media/tune-link.mov';
 import wordleCloneVideo from '../media/wordle-clone.mov';
 import spellCheckVideo from '../media/spell-check.mov';
