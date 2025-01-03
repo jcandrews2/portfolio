@@ -1,0 +1,42 @@
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 30%; 
+    box-sizing: border-box; 
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card on hover */
+  }
+  
+  .project-video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .tech-icons {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  a {
+    color: rgb(54, 121, 255); 
+  }
+  
+  
+  @media (max-width: 1024px) {
+    .project-card {
+      width: 45%; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .project-card {
+      width: 100%; 
+    }
+  }
+  

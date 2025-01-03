@@ -1,22 +1,27 @@
-import "./styles/App.css";
-import "./styles/Navbar.css";
-import "./styles/About.css";
-import "./styles/Footer.css";
-import "./styles/Contact.css";
-import "./styles/Resume.css";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Resume from "./components/Resume";
-import Footer from "./components/Footer";
-import Contact from "./components/Contact";
-import { Route, Routes, Navigate } from "react-router-dom";
+import './styles/App.css';
+import './styles/Navbar.css';
+import './styles/About.css';
+import './styles/LinkedIn.css';
+import './styles/Contact.css';
+import './styles/Resume.css';
+import './styles/IconRenderer.css';
+import './styles/LineAnimation.css';
+import './styles/ArtGallery.css';
+import './styles/Resume.css';
+import './styles/ProjectCard.css';
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Resume from './components/Resume';
+import LinkedIn from './components/LinkedIn';
+import Contact from './components/Contact';
+import { Route, Routes, Navigate } from 'react-router-dom';
 
 function App() {
   return (
     <div className="app">
-      <div className="left">
+      <div className="menu">
         <Navbar />
-        <Footer />
+        <LinkedIn />
       </div>
 
       <Routes>

@@ -1,75 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&display=swap');
 
-ul { 
-    list-style-type: none;
-    padding: 0; 
-}
-
-.about-page { 
+.other-page { 
     font-size: 15px;
     color: black;
-    display: block;
-    padding: 20px 20px 20px 40px;
+    display: inline-block;
+    margin: 20px 20px 20px 40px;
 }
 
-.resume-page { 
-    font-size: 15px;
-    color: black;
-    display: block;
-    padding: 20px 20px 20px 40px;
-}
-
-.contact-page { 
-    font-size: 15px;
-    color: black;
-    display: block;
-    padding: 20px 20px 20px 40px;
-}
 
 .home-page { 
     font-family: 'Overpass Mono', monospace;
     font-size: 40px;
     color: black;
     display: block;
-    padding: 40px 40px 20px 40px;
+    padding: 40px;
+}
+
+.page-container { 
+    display: inline-block;
 }
 
 ul:hover li a{ 
-    color: lightgrey;
+    color: lightcoral;
 }
 
 ul li a:hover{ 
     color: black;
 }
 
-.lineUnder { 
-    position: relative; 
-    margin-left: 42px;
-    width: 30px;
-    height: 1px;
-    background: Black;
-}
-
-.lineOver { 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 30px;
-    height: 1px;
-    background: white;
-}
-
-ul li:hover .lineOver { 
-    animation-name: animate;
-    animation-duration: .5s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes animate {
-    0% {
-        left: 0;
-    }
-    100% {
-        left: 100%;
-     }
-}

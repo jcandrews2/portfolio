@@ -1,0 +1,32 @@
+.lineUnder {
+    position: relative;
+    margin-left: 42px;
+    height: 1px; 
+    width: 100%;
+    background: black;
+    display: inline-block;
+}
+
+.lineOver { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: white;
+}
+
+ul li:hover .lineOver { 
+    animation-name: animate;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+     }
+}

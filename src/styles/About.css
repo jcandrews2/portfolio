@@ -1,24 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&display=swap');
-
-#portrait {
-    height: auto;
-    width: 40%;
-    align-self: flex-start;
-    padding-right: 20px;
-} 
-
 .about { 
-    padding: 80px 40px 40px 40px;
+    width: 70%;
+    min-height: 100vh;
+    margin: 100px auto;
+  }
+  
+
+  .about-section {
+    margin-bottom: 200px;
+
+  }
+  
+  #about-header {
+    margin-bottom: 20px;
+  }
+  
+  .bio-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 40px auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .project-grid { 
     display: flex;
-    line-height: 20pt;
-    flex: 1 1 auto;
-    overflow: auto;
-}
+    justify-content: center; 
+    gap: 12px
+  }
 
-.about-text { 
-    padding-left: 20px;
-}
-
-#about-header { 
-    font-family: 'Overpass Mono', monospace;
-}
+  .project-section { 
+    margin-bottom: 200px; 
+  }
+  
+ 
+  

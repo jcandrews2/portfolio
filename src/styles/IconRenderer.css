@@ -1,0 +1,15 @@
+.tech-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;  
+    color: black;
+}
+
+.tech-labels { 
+    display: flex; 
+    align-items: center;
+}
+
+.tech-name { 
+    padding-left: 10px
+}
