@@ -19,9 +19,9 @@ const About = () => {
   const tech_3 = ['Python'];
 
   return (
-    <div className="about">
-      <div className="about-section">
-        <h1 id="about-header">About Me</h1>
+    <div className="about-container">
+      <div className="bio-section">
+        <h1>About Me</h1>
         <img
           src={require('../media/Bio_1.jpg')}
           alt="Bio 1"
@@ -59,18 +59,21 @@ const About = () => {
             description="Music Recommendation Platform."
             video={tuneLinkVideo}
             technologies={tech_1}
+            repo="https://github.com/jcandrews2/tune-link"
           />
           <ProjectCard
             title="Wordle Clone"
             description="Word Guessing Game Remake."
             video={wordleCloneVideo}
             technologies={tech_2}
+            repo="https://github.com/jcandrews2/wordle-react"
           />
           <ProjectCard
             title="Spell Check"
             description="Spelling Correction Tool."
             video={spellCheckVideo}
             technologies={tech_3}
+            repo="https://github.com/jcandrews2/spell-checker"
           />
         </div>
       </div>

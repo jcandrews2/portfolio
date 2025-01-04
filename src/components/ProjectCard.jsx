@@ -3,7 +3,7 @@ import '../styles/ProjectCard.css';
 import IconRenderer from './IconRenderer';
 
 const ProjectCard = (props) => {
-  const { title, description, video, technologies } = props;
+  const { title, description, video, technologies, repo } = props;
 
   return (
     <div className="project-card">
@@ -23,11 +23,7 @@ const ProjectCard = (props) => {
         <IconRenderer technologies={technologies} />
       </div>
 
-      <a
-        href="https://github.com/jcandrews2/tune-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href={repo} target="_blank" rel="noopener noreferrer">
         View Repository
       </a>
     </div>

@@ -1,3 +1,8 @@
+.tech-container { 
+    display: flex; 
+    align-items: center;
+}
+
 .tech-icons {
     display: flex;
     gap: 10px;
@@ -5,11 +10,6 @@
     color: black;
 }
 
-.tech-labels { 
-    display: flex; 
-    align-items: center;
-}
-
-.tech-name { 
+.tech-names { 
     padding-left: 10px
 }

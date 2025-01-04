@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&display=swap');
 
+.nav { 
+
+    position: fixed; 
+}
+
 .app { 
     display: flex;
     height: 100vh;

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&display=swap');
 
 .navbar { 
+    position: fixed; 
     width: 200px; 
     height: 100vh;
     display: flex; 
@@ -8,13 +9,16 @@
     justify-content: space-between;
 }
 
+.social-container { 
+    margin: 40px; 
+ }
+
 .other-page { 
     font-size: 15px;
     color: black;
     display: inline-block;
     margin: 20px 20px 20px 40px;
 }
-
 
 .home-page { 
     font-family: 'Overpass Mono', monospace;
@@ -36,10 +40,6 @@ ul li a:hover{
     color: black;
 }
 
-.social-container { 
-   margin: 40px; 
-}
-
 .linkedin-images { 
     position: relative;
     width: 50%; 
@@ -49,11 +49,11 @@ ul li a:hover{
 }
 
 #linkedin-static {
+    position: absolute;
     height: auto;
     width: 30%;
     padding-right: 20px;
     background: white;
-    position: absolute;
 }
 
 #linkedin-static:hover { 
@@ -65,4 +65,29 @@ ul li a:hover{
     width: 30%;
     padding-right: 20px;
 }
+
+
+
+/* line animation */
+.line-animation {
+    padding-bottom: 5px; 
+    position: relative;
+}
+
+.line-animation::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; 
+    height: 1px;
+    background-color: white; 
+    transition: width 0.5s ease, background-color 0.5s ease; 
+}
+
+.line-animation:hover::before {
+    width: 100%;
+    background-color: black;
+}
+
 

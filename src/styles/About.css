@@ -1,37 +1,33 @@
-.about { 
+.about-container { 
     width: 70%;
     min-height: 100vh;
     margin: 100px auto;
   }
   
+.bio-section {
+  margin-bottom: 200px;
+}
 
-  .about-section {
-    margin-bottom: 200px;
+.bio-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 40px auto;
+  display: block;
+  object-fit: cover;
+}
 
-  }
-  
-  #about-header {
-    margin-bottom: 20px;
-  }
-  
-  .bio-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 40px auto;
-    display: block;
-    object-fit: cover;
-  }
+.project-section { 
+  margin-bottom: 200px; 
+}
 
-  .project-grid { 
-    display: flex;
-    justify-content: center; 
-    gap: 12px
-  }
+.project-grid { 
+  display: flex;
+  justify-content: center; 
+  gap: 12px
+}
 
-  .project-section { 
-    margin-bottom: 200px; 
-  }
+
   
  
   

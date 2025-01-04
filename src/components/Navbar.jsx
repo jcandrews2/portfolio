@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Navbar.css';
 import { Link } from 'react-router-dom';
-import LineAnimation from './LineAnimation';
 
 const Navbar = () => {
   return (
@@ -15,19 +14,16 @@ const Navbar = () => {
           </Link>
 
           <Link to="/about" className="other-page">
-            About
+            <div className="line-animation">About</div>
           </Link>
-          <LineAnimation />
 
           <Link to="/resume" className="other-page">
-            Resume
+            <div className="line-animation">Resume</div>
           </Link>
-          <LineAnimation />
 
           <Link to="/contact" className="other-page">
-            Contact
+            <div className="line-animation">Contact</div>
           </Link>
-          <LineAnimation />
         </nav>
       </div>
 

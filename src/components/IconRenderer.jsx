@@ -33,9 +33,9 @@ const IconRenderer = ({ technologies }) => {
 
   return (
     <div>
-      <div className="tech-labels">
+      <div className="tech-container">
         <h5>Technologies:</h5>
-        {hoveredTech && <span className="tech-name">{hoveredTech}</span>}
+        {hoveredTech && <span className="tech-names">{hoveredTech}</span>}
       </div>
       <div className="tech-icons">
         {technologies.map((tech) =>
