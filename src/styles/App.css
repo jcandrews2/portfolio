@@ -1,19 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&display=swap');
 
 .nav { 
-
     position: fixed; 
 }
 
 .app { 
     display: flex;
-    height: 100vh;
+    height: max-content;
 }
 
 .menu { 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.pages-container { 
+    position: absolute;
+    z-index: -1;
+    padding-left: 200px;
+    min-height: 100vh;
+    height: max-content;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 

@@ -4,14 +4,18 @@ import '../styles/Resume.css';
 const Resume = () => {
   return (
     <div className="resume-container">
+      <h1>Resume</h1>
       <section>
         <h2>Education</h2>
         <div>
           <h3>Colorado College</h3>
           <p>Colorado Springs, CO</p>
           <p>B.A.: Major: Computer Science, Minor: Math</p>
-          <p>May 2025</p>
-          <p>3.88/4.00 Cumulative GPA, 3.95/4.00 Major Specific GPA</p>
+          <p>Graduating May 2025</p>
+          <p>
+            <b>3.88/4.00</b> Cumulative GPA, <b>3.95/4.00</b> Major Specific GPA
+            | Dean's List
+          </p>
           <p>
             Relevant Coursework: Data Structures and Algorithms, Software
             Design, Theory and Practice of Database Management, Natural Language
@@ -79,6 +83,32 @@ const Resume = () => {
             </li>
           </ul>
         </div>
+
+        <div>
+          <h3>Computer Science Grader</h3>
+          <p>Colorado College | Colorado Springs, CO | August 2024 - Present</p>
+        </div>
+
+        <div>
+          <h3>Tennis Professional</h3>
+          <p>Woodside | Kansas City, KS | June 2024 - August 2024</p>
+        </div>
+
+        <div>
+          <h3>Tennis Instructor</h3>
+          <p>
+            Indian Hills Country Club | Mission Hills, KS | June 2021 - August
+            2021
+          </p>
+        </div>
+
+        <div>
+          <h3>Volunteer</h3>
+          <p>
+            St. Paul's Food Pantry | Kansas City, MO | January 2017 - December
+            2020
+          </p>
+        </div>
       </section>
 
       <section>
@@ -86,12 +116,14 @@ const Resume = () => {
         <div>
           <h3>Tune Link - Music Recommendation Platform</h3>
           <p>
-            <a href="#">GitHub Repository</a>
+            <a href="https://github.com/jcandrews2/tune-link">
+              View Repository
+            </a>
           </p>
           <ul>
             <li>
-              Created a full stack web application that integrates Spotify’s and
-              OpenAI’s APIs to produce song recommendations based on previously
+              Created a full stack web application that integrates Spotify's and
+              OpenAI's APIs to produce song recommendations based on previously
               liked and disliked songs
             </li>
             <li>
@@ -108,7 +140,9 @@ const Resume = () => {
         <div>
           <h3>Wordle Clone - Word Guessing Game Remake</h3>
           <p>
-            <a href="#">GitHub Repository</a>
+            <a href="https://github.com/jcandrews2/wordle-react">
+              View Repository
+            </a>
           </p>
           <ul>
             <li>
@@ -122,7 +156,9 @@ const Resume = () => {
         <div>
           <h3>Spell Check - Spelling Correction Tool</h3>
           <p>
-            <a href="#">GitHub Repository</a>
+            <a href="https://github.com/jcandrews2/spell-checker">
+              View Repository
+            </a>
           </p>
           <ul>
             <li>
@@ -137,6 +173,40 @@ const Resume = () => {
             <li>
               Conducted benchmark tests to evaluate the program's performance at
               varying dictionary sizes
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Particle Swarm Optimization Adaptation</h3>
+          <p>
+            <a href="https://github.com/ColoradoCollege-MathCS/neural_tsp">
+              View Repository
+            </a>
+          </p>
+          <ul>
+            <li>
+              Adapted and implemented Particle Swarm Optimization (PSO) to solve
+              Traveling Salesperson (TSP) problems
+            </li>
+            <li>
+              Performed coordinate descent and created graphs to find optimal
+              parameters for PSO on TSP
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Frogger Game Adaptation</h3>
+          <p>
+            <a href="https://github.com/mustafasameen/CrossyRoads">
+              View Repository
+            </a>
+          </p>
+          <ul>
+            <li>
+              Built a rough adaptation of Frogger/Crossy Roads in Java and Java
+              Swing
             </li>
           </ul>
         </div>

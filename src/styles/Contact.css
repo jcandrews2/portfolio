@@ -1,3 +1,22 @@
-.contact { 
-    padding: 80px 40px 40px 40px;
+.contact-container { 
+    margin: 100px auto; 
+    text-align: center;
+}
+
+.contact-info { 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info p { 
+    padding: 5px;
+}
+
+.contact-info svg { 
+    padding: 5px;
+}
+
+.contact-info a { 
+    color: black; 
 }

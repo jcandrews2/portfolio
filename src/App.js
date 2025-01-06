@@ -11,12 +11,14 @@ function App() {
     <div className="app">
       <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Navigate to="/about" replace={true} />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <div className="pages-container">
+        <Routes>
+          <Route path="/" element={<Navigate to="/about" replace={true} />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
     </div>
   );
 }

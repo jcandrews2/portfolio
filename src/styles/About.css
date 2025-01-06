@@ -1,9 +1,9 @@
 .about-container { 
-    width: 70%;
-    min-height: 100vh;
-    margin: 100px auto;
-  }
-  
+    width: 80%;
+    padding: 100px 0;
+    height: max-content;
+}
+
 .bio-section {
   margin-bottom: 200px;
 }
