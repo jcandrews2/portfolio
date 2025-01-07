@@ -3,12 +3,13 @@
     border-radius: 8px;
     padding: 16px;
     width: 30%; 
+    min-width: 300px;
     box-sizing: border-box; 
-    transition: transform 0.3s ease; /* Smooth scaling transition */
+    transition: transform 0.3s ease; 
   }
   
   .project-card:hover {
-    transform: scale(1.05); /* Slightly enlarges the card on hover */
+    transform: scale(1.05);
   }
   
   .project-video {
@@ -27,16 +28,4 @@
     color: #007bff;
   }
   
-  
-  @media (max-width: 1024px) {
-    .project-card {
-      width: 45%; 
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .project-card {
-      width: 100%; 
-    }
-  }
   

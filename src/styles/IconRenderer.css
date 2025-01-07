@@ -11,5 +11,13 @@
 }
 
 .tech-names { 
-    padding-left: 10px
+    padding-left: 10px;
+}
+
+.tech-icon {
+    transition: transform 0.3s ease-in-out; 
+}
+
+.tech-icon:hover { 
+    transform: scale(1.1);
 }

@@ -42,6 +42,7 @@ const IconRenderer = ({ technologies }) => {
           techIcons[tech] ? (
             <div
               key={tech}
+              className="tech-icon"
               onMouseEnter={() => handleMouseEnter(tech)}
               onMouseLeave={handleMouseLeave}
             >

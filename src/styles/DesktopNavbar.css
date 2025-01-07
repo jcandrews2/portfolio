@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&display=swap');
 
-.navbar-boundary { 
+.desktop-navbar-boundary { 
     width: 200px;
     height: 100vh;
+    flex-shrink: 0;
 }
 
-.navbar { 
-    position: fixed; 
-    width: 200px; 
-    height: 100vh;
+.desktop-navbar { 
     display: flex; 
     flex-direction: column; 
     justify-content: space-between;
+    position: fixed; 
+    width: 200px; 
+    height: 100vh;
 }
 
 .social-container { 
@@ -22,7 +23,7 @@
     font-size: 15px;
     color: black;
     display: inline-block;
-    margin: 20px 20px 20px 40px;
+    padding: 20px 20px 20px 40px;
 }
 
 .home-page { 
@@ -80,7 +81,7 @@ ul li a:hover{
     width: 0; 
     height: 1px;
     background-color: white; 
-    transition: width 0.5s ease, background-color 0.5s ease; 
+    transition: width 0.4s ease, background-color 0.4s ease; 
 }
 
 .line-animation:hover::before {

@@ -1,12 +1,12 @@
-import React from 'react';
-import '../styles/Navbar.css';
+import React, { useState } from 'react';
+import '../styles/DesktopNavbar.css';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <>
-      <div className="navbar-boundary"> </div>
-      <header className="navbar">
+      <div className="desktop-navbar-boundary"></div>
+      <header className="desktop-navbar">
         <div>
           <nav>
             <Link to="/about" className="home-page">
@@ -14,15 +14,12 @@ const Navbar = () => {
               <br />
               Andrews
             </Link>
-
             <Link to="/about" className="other-page">
               <div className="line-animation">About</div>
             </Link>
-
             <Link to="/resume" className="other-page">
               <div className="line-animation">Resume</div>
             </Link>
-
             <Link to="/contact" className="other-page">
               <div className="line-animation">Contact</div>
             </Link>
