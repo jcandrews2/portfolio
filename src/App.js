@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './styles/App.css';
 import DesktopNavbar from './components/DesktopNavbar';
+import MobileNavbar from './components/MobileNavbar';
 import About from './components/About';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
-import MobileNavbar from './components/MobileNavbar';
 import { Route, Routes, Navigate } from 'react-router-dom';
 
 function App() {

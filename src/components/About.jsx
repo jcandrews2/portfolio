@@ -5,6 +5,7 @@ import wordleCloneVideo from '../media/wordle-clone.mov';
 import spellCheckVideo from '../media/spell-check.mov';
 import ProjectCard from './ProjectCard';
 import ArtGallery from './ArtGallery';
+import Divider from './Divider';
 
 const About = () => {
   const tech_1 = [
@@ -50,6 +51,8 @@ const About = () => {
         </p>
       </div>
 
+      <Divider text="End Content" />
+
       <div className="project-section">
         <h2>Projects</h2>
         <p>Here's some projects that I've worked on!</p>
@@ -77,6 +80,8 @@ const About = () => {
           />
         </div>
       </div>
+
+      <Divider />
 
       <ArtGallery />
     </div>

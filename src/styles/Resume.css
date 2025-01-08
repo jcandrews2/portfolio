@@ -26,5 +26,20 @@
   color: #007bff;
   text-decoration: none;
 }
+
+.education-container { 
+  padding-bottom: 100px;
+}
+
+.work-container { 
+  padding: 100px 0;
+}
+
+.projects-container { 
+  padding: 100px 0;
+}
+
   
-  
+.skills-container { 
+  padding-top: 100px;
+}

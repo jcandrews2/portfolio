@@ -1,11 +1,12 @@
 import React from 'react';
 import '../styles/Resume.css';
+import Divider from './Divider';
 
 const Resume = () => {
   return (
     <div className="resume-container">
       <h1>Resume</h1>
-      <section>
+      <section className="education-container">
         <h2>Education</h2>
         <div>
           <h3>Colorado College</h3>
@@ -24,7 +25,9 @@ const Resume = () => {
         </div>
       </section>
 
-      <section>
+      <Divider />
+
+      <section className="education-container">
         <h2>Work Experience</h2>
         <div>
           <h3>Digital Products Intern</h3>
@@ -111,7 +114,9 @@ const Resume = () => {
         </div>
       </section>
 
-      <section>
+      <Divider />
+
+      <section className="projects-container">
         <h2>Projects</h2>
         <div>
           <h3>Tune Link - Music Recommendation Platform</h3>
@@ -212,7 +217,9 @@ const Resume = () => {
         </div>
       </section>
 
-      <section>
+      <Divider />
+
+      <section className="skills-container">
         <h2>Skills and Interests</h2>
         <div>
           <h3>Languages</h3>

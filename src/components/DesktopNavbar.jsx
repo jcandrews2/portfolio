@@ -1,19 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/DesktopNavbar.css';
+import Socials from './Socials';
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const DesktopNavbar = () => {
   return (
     <>
       <div className="desktop-navbar-boundary"></div>
-      <header className="desktop-navbar">
+      <div className="desktop-navbar">
         <div>
-          <nav>
+          <header>
             <Link to="/about" className="home-page">
               James
               <br />
               Andrews
             </Link>
+          </header>
+          <nav>
             <Link to="/about" className="other-page">
               <div className="line-animation">About</div>
             </Link>
@@ -26,29 +29,10 @@ const Navbar = () => {
           </nav>
         </div>
 
-        <div className="social-container">
-          <Link
-            target="_blank"
-            rel="noreferrer"
-            to="https://www.linkedin.com/in/james-andrews-b513b2253/"
-          >
-            <div className="linkedin-images">
-              <img
-                id="linkedin-static"
-                src={require('../media/Linkedin.png')}
-                alt="linkedin-static"
-              />
-              <img
-                id="linkedin-active"
-                src={require('../media/Linkedin.gif')}
-                alt="linkedin-active"
-              />
-            </div>
-          </Link>
-        </div>
-      </header>
+        <Socials />
+      </div>
     </>
   );
 };
 
-export default Navbar;
+export default DesktopNavbar;

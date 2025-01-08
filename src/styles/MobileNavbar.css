@@ -4,47 +4,48 @@
     align-items: center;
 }
 
-.modal-overlay {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    background-color: white;
-    animation: fadeIn 0.3s forwards;
-  }
+.social-hamburger-container { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 40px 40px 0px;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
   
-  /* Modal content */
-  .modal-content {
-    background: white;
-    padding: 2rem;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Menu items */
-  .menu-item {
-    display: block;
-    margin: 1rem 0;
-    color: black;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-    transition: color 0.2s;
-  }
-  
-  .menu-item:hover {
-    color: gray;
-  }
-  
-  /* Fade-in animation */
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
+.menu-item {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: black; 
+  padding: 10px 0; 
+}
+
+
+/* line animation */
+.line-animation {
+  padding-bottom: 5px; 
+  position: relative;
+}
+
+.line-animation::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0; 
+  height: 1px;
+  background-color: white; 
+  transition: width 0.4s ease, background-color 0.4s ease; 
+}
+
+.line-animation:hover::before {
+  width: 100%;
+  background-color: black;
+}
+
+

@@ -13,7 +13,7 @@ const artImages = [
 
 const ArtGallery = () => {
   return (
-    <>
+    <div className="art-gallery-container">
       <h2>My Artwork</h2>
       <p>If you made it this far, here's some of my artwork!</p>
       <div className="row">
@@ -31,7 +31,7 @@ const ArtGallery = () => {
           <img src={artImages[6].src} alt={artImages[6].alt} />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

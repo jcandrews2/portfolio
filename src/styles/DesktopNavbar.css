@@ -15,56 +15,19 @@
     height: 100vh;
 }
 
-.social-container { 
-    padding: 40px; 
- }
-
 .other-page { 
     font-size: 15px;
     color: black;
     display: inline-block;
-    padding: 20px 20px 20px 40px;
+    padding: 20px 40px;
 }
 
 .home-page { 
     font-family: 'Overpass Mono', monospace;
-    font-size: 35px;
+    font-size: 2.25rem;
     color: black;
     display: block;
-    padding: 40px;
-}
-
-
-ul:hover li a{ 
-    color: lightcoral;
-}
-
-ul li a:hover{ 
-    color: black;
-}
-
-.linkedin-images { 
-    position: relative;
-    width: 50%; 
-    height: auto; 
-    top: 50%;
-    transform: translateY(-40%);
-}
-
-#linkedin-static {
-    position: absolute;
-    height: auto;
-    width: 30%;
-    background: white;
-}
-
-#linkedin-static:hover { 
-    opacity: 0;
-}
-
-#linkedin-active {
-    height: auto;
-    width: 30%;
+    padding: 40px 0px 40px 40px;
 }
 
 /* line animation */
