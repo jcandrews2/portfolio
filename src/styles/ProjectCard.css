@@ -5,14 +5,14 @@
     width: 30%; 
     min-width: 300px;
     box-sizing: border-box; 
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
   }
   
   .project-card:hover {
     transform: scale(1.05);
   }
   
-  .project-video {
+  .project-card video {
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -27,5 +27,7 @@
   .project-card a {
     color: #007bff;
   }
+
+    
   
   

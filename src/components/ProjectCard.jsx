@@ -1,21 +1,14 @@
 import React from 'react';
 import '../styles/ProjectCard.css';
 import IconRenderer from './IconRenderer';
+import VideoModal from './VideoModal';
 
 const ProjectCard = (props) => {
   const { title, description, video, technologies, repo } = props;
 
   return (
     <div className="project-card">
-      <video
-        src={video}
-        alt="Project 1"
-        className="project-video"
-        muted
-        loop
-        playsInline
-        autoPlay
-      />
+      <VideoModal videoSrc={video} altText="Project Video" />
       <h3>{title}</h3>
       <p>{description}</p>
 

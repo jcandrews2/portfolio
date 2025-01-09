@@ -6,15 +6,21 @@
 
 .bio-section {
   padding-bottom: 100px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio-section p { 
+  padding: 0 40px;
+  margin: 0;
 }
 
 .bio-image {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin: 40px auto;
-  display: block;
-  object-fit: cover;
+  padding: 40px;
 }
 
 .project-section { 

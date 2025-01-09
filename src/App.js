@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './styles/App.css';
+import './styles/Modal.css';
 import DesktopNavbar from './components/DesktopNavbar';
 import MobileNavbar from './components/MobileNavbar';
 import About from './components/About';
@@ -10,6 +11,7 @@ import { Route, Routes, Navigate } from 'react-router-dom';
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [mobileMenu, setMobileMenu] = useState(false);
+  const [modal, setModal] = useState(false);
 
   // Watch for screen resizes
   useEffect(() => {
@@ -23,6 +25,10 @@ function App() {
 
   const toggleMobileMenu = () => {
     setMobileMenu(!mobileMenu);
+  };
+
+  const toggleModal = () => {
+    setModal(!modal);
   };
 
   return (
@@ -40,7 +46,10 @@ function App() {
         {!mobileMenu && (
           <Routes>
             <Route path="/" element={<Navigate to="/about" replace={true} />} />
-            <Route path="/about" element={<About />} />
+            <Route
+              path="/about"
+              element={<About modal={modal} toggleModal={toggleModal} />}
+            />
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

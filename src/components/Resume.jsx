@@ -1,11 +1,21 @@
 import React from 'react';
 import '../styles/Resume.css';
 import Divider from './Divider';
+import Andrews_James_Resume from '../media/Andrews_James_Resume.pdf';
 
 const Resume = () => {
   return (
     <div className="resume-container">
       <h1>Resume</h1>
+
+      <a
+        href={Andrews_James_Resume}
+        download="Andrews_James_Resume.pdf"
+        className="resume-download"
+      >
+        Download Resume
+      </a>
+
       <section className="education-container">
         <h2>Education</h2>
         <div>
@@ -18,9 +28,10 @@ const Resume = () => {
             | Dean's List
           </p>
           <p>
-            Relevant Coursework: Data Structures and Algorithms, Software
-            Design, Theory and Practice of Database Management, Natural Language
-            Processing, Optimization and Deep Learning, Computer Organization
+            <b> Relevant Coursework: </b> Data Structures and Algorithms,
+            Software Design, Theory and Practice of Database Management, Natural
+            Language Processing, Optimization and Deep Learning, Computer
+            Organization
           </p>
         </div>
       </section>
@@ -57,7 +68,7 @@ const Resume = () => {
 
         <div>
           <h3>Project Coordinator - Product and Technology Intern</h3>
-          <p>T-Mobile | Overland Park, KS | May 2023 – August 2023</p>
+          <p>T-Mobile | Overland Park, KS | May 2023 - August 2023</p>
           <ul>
             <li>
               Produced and shared daily task reports that contributed to a 50%
@@ -121,7 +132,11 @@ const Resume = () => {
         <div>
           <h3>Tune Link - Music Recommendation Platform</h3>
           <p>
-            <a href="https://github.com/jcandrews2/tune-link">
+            <a
+              href="https://github.com/jcandrews2/tune-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Repository
             </a>
           </p>
@@ -133,7 +148,7 @@ const Resume = () => {
             </li>
             <li>
               Utilized MongoDB and Express.js to store and retrieve
-              user-specific data for the front-end
+              user-specific data
             </li>
             <li>
               Built a responsive user interface using React.js, Javascript,
@@ -143,25 +158,13 @@ const Resume = () => {
         </div>
 
         <div>
-          <h3>Wordle Clone - Word Guessing Game Remake</h3>
-          <p>
-            <a href="https://github.com/jcandrews2/wordle-react">
-              View Repository
-            </a>
-          </p>
-          <ul>
-            <li>
-              Developed a remake of Wordle using React.js, Javascript, HTML, and
-              CSS
-            </li>
-            <li>Utilized a JSON server to fetch and manage secret words</li>
-          </ul>
-        </div>
-
-        <div>
           <h3>Spell Check - Spelling Correction Tool</h3>
           <p>
-            <a href="https://github.com/jcandrews2/spell-checker">
+            <a
+              href="https://github.com/jcandrews2/spell-check"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Repository
             </a>
           </p>
@@ -183,9 +186,51 @@ const Resume = () => {
         </div>
 
         <div>
+          <h3>Wordle Clone - Word Guessing Game Remake</h3>
+          <p>
+            <a
+              href="https://github.com/jcandrews2/wordle-clone"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Repository
+            </a>
+          </p>
+          <ul>
+            <li>
+              Developed a remake of Wordle using React.js, Javascript, HTML, and
+              CSS
+            </li>
+            <li>Utilized a JSON server to fetch and manage secret words</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Portfolio Website</h3>
+          <p>
+            <a
+              href="https://github.com/jcandrews2/portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Repository
+            </a>
+          </p>
+          <ul>
+            <li>
+              Built this website using React.js, Javascript, HTML, and CSS
+            </li>
+          </ul>
+        </div>
+
+        <div>
           <h3>Particle Swarm Optimization Adaptation</h3>
           <p>
-            <a href="https://github.com/ColoradoCollege-MathCS/neural_tsp">
+            <a
+              href="https://github.com/ColoradoCollege-MathCS/neural_tsp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Repository
             </a>
           </p>
@@ -204,7 +249,11 @@ const Resume = () => {
         <div>
           <h3>Frogger Game Adaptation</h3>
           <p>
-            <a href="https://github.com/mustafasameen/CrossyRoads">
+            <a
+              href="https://github.com/mustafasameen/CrossyRoads"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Repository
             </a>
           </p>
@@ -233,8 +282,8 @@ const Resume = () => {
           </p>
           <h3>Interests</h3>
           <p>
-            Tennis, Machine Learning, Hiking, Skiing, 2D Design, Chess, Ice
-            Hockey
+            Front-end Development, Tennis, Machine Learning, Hiking, Skiing, 2D
+            Design, Chess, Ice Hockey
           </p>
         </div>
       </section>
