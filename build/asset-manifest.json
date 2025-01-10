@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.16a5f33e.css",
+    "main.js": "/portfolio/static/js/main.8aff9d48.js",
+    "static/js/787.7887cb61.chunk.js": "/portfolio/static/js/787.7887cb61.chunk.js",
+    "static/media/tune-link.mov": "/portfolio/static/media/tune-link.c207c8366f0fcccc74ef.mov",
+    "static/media/spell-check.mov": "/portfolio/static/media/spell-check.5052089d36a0fc345b6a.mov",
+    "static/media/Art_4.jpg": "/portfolio/static/media/Art_4.47c14fc4e3ff48abe93d.jpg",
+    "static/media/Art_5.jpg": "/portfolio/static/media/Art_5.04c30d530780116eff36.jpg",
+    "static/media/Art_6.jpg": "/portfolio/static/media/Art_6.5b5e77c665f06d408bd2.jpg",
+    "static/media/Art_7.jpg": "/portfolio/static/media/Art_7.15ee2b77f8496fcf7ba3.jpg",
+    "static/media/Art_2.jpg": "/portfolio/static/media/Art_2.79483b8db8c2acf3fb52.jpg",
+    "static/media/wordle-clone.mov": "/portfolio/static/media/wordle-clone.1aa1126c4ee876c01ca0.mov",
+    "static/media/Art_1.jpg": "/portfolio/static/media/Art_1.3aa5564b1ad1eaecf23f.jpg",
+    "static/media/Bio_1.jpg": "/portfolio/static/media/Bio_1.34f6c25f120c3cb418ec.jpg",
+    "static/media/Art_3.jpg": "/portfolio/static/media/Art_3.c53e7c20fb9b11fbad89.jpg",
+    "static/media/Art_8.jpg": "/portfolio/static/media/Art_8.0680e728ef8d6970f1bb.jpg",
+    "static/media/Andrews_James_Resume.pdf": "/portfolio/static/media/Andrews_James_Resume.7b7746c918769da94ef8.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.16a5f33e.css.map": "/portfolio/static/css/main.16a5f33e.css.map",
+    "main.8aff9d48.js.map": "/portfolio/static/js/main.8aff9d48.js.map",
+    "787.7887cb61.chunk.js.map": "/portfolio/static/js/787.7887cb61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16a5f33e.css",
+    "static/js/main.8aff9d48.js"
+  ]
+}
