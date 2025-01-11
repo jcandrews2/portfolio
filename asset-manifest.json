@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.43f5c04b.css",
-    "main.js": "/portfolio/static/js/main.c53e42fd.js",
+    "main.js": "/portfolio/static/js/main.749797e5.js",
     "static/js/453.96cba20d.chunk.js": "/portfolio/static/js/453.96cba20d.chunk.js",
     "static/media/tune-link.mov": "/portfolio/static/media/tune-link.c207c8366f0fcccc74ef.mov",
     "static/media/spell-check.mov": "/portfolio/static/media/spell-check.5052089d36a0fc345b6a.mov",
@@ -15,17 +15,17 @@
     "static/media/Bio_1.jpg": "/portfolio/static/media/Bio_1.34f6c25f120c3cb418ec.jpg",
     "static/media/Art_3.jpg": "/portfolio/static/media/Art_3.c53e7c20fb9b11fbad89.jpg",
     "static/media/Art_8.jpg": "/portfolio/static/media/Art_8.0680e728ef8d6970f1bb.jpg",
-    "static/media/Andrews_James_Resume.pdf": "/portfolio/static/media/Andrews_James_Resume.31d6b0d21a7595e05eb1.pdf",
+    "static/media/Andrews_James_Resume.pdf": "/portfolio/static/media/Andrews_James_Resume.0c3bc3399c9c5ed63ed8.pdf",
     "static/media/spell-check.jpg": "/portfolio/static/media/spell-check.c9b6cdda91730d7c6941.jpg",
     "static/media/wordle-clone.jpg": "/portfolio/static/media/wordle-clone.f9beaecc61b5d9cf29b1.jpg",
     "static/media/tune-link.jpg": "/portfolio/static/media/tune-link.3b90f8d9064b4329e5a0.jpg",
     "index.html": "/portfolio/index.html",
     "main.43f5c04b.css.map": "/portfolio/static/css/main.43f5c04b.css.map",
-    "main.c53e42fd.js.map": "/portfolio/static/js/main.c53e42fd.js.map",
+    "main.749797e5.js.map": "/portfolio/static/js/main.749797e5.js.map",
     "453.96cba20d.chunk.js.map": "/portfolio/static/js/453.96cba20d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43f5c04b.css",
-    "static/js/main.c53e42fd.js"
+    "static/js/main.749797e5.js"
   ]
 }
