@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.16f391b2.css",
-    "main.js": "/portfolio/static/js/main.5b2daaf3.js",
+    "main.css": "/portfolio/static/css/main.8b36505b.css",
+    "main.js": "/portfolio/static/js/main.cb8cca1f.js",
     "static/js/453.96cba20d.chunk.js": "/portfolio/static/js/453.96cba20d.chunk.js",
     "static/media/tune-link.mov": "/portfolio/static/media/tune-link.c207c8366f0fcccc74ef.mov",
     "static/media/spell-check.mov": "/portfolio/static/media/spell-check.5052089d36a0fc345b6a.mov",
@@ -20,12 +20,12 @@
     "static/media/wordle-clone.jpg": "/portfolio/static/media/wordle-clone.f9beaecc61b5d9cf29b1.jpg",
     "static/media/tune-link.jpg": "/portfolio/static/media/tune-link.3b90f8d9064b4329e5a0.jpg",
     "index.html": "/portfolio/index.html",
-    "main.16f391b2.css.map": "/portfolio/static/css/main.16f391b2.css.map",
-    "main.5b2daaf3.js.map": "/portfolio/static/js/main.5b2daaf3.js.map",
+    "main.8b36505b.css.map": "/portfolio/static/css/main.8b36505b.css.map",
+    "main.cb8cca1f.js.map": "/portfolio/static/js/main.cb8cca1f.js.map",
     "453.96cba20d.chunk.js.map": "/portfolio/static/js/453.96cba20d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16f391b2.css",
-    "static/js/main.5b2daaf3.js"
+    "static/css/main.8b36505b.css",
+    "static/js/main.cb8cca1f.js"
   ]
 }
