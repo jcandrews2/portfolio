@@ -4,11 +4,15 @@ import IconRenderer from './IconRenderer';
 import VideoModal from './VideoModal';
 
 const ProjectCard = (props) => {
-  const { title, description, video, technologies, repo } = props;
+  const { title, description, image, video, technologies, repo } = props;
 
   return (
     <div className="project-card">
-      <VideoModal videoSrc={video} altText="Project Video" />
+      <VideoModal
+        videoSrc={video}
+        thumbnailSrc={image}
+        altText="Project Video"
+      />
       <h3>{title}</h3>
       <p>{description}</p>
 

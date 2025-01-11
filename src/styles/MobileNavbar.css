@@ -25,4 +25,10 @@
   padding: 10px 0; 
 }
 
-
+.mobile-home-page { 
+  font-family: 'Overpass Mono', monospace;
+  font-size: 24px;
+  color: black;
+  display: block;
+  padding: 40px 0px 40px 40px;
+}

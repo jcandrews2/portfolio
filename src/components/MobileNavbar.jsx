@@ -9,7 +9,7 @@ const MobileMenu = ({ mobileMenu, toggleMobileMenu }) => {
     <>
       <div className="mobile-navbar-container">
         <header onClick={mobileMenu ? toggleMobileMenu : null}>
-          <Link to="/about" className="home-page">
+          <Link to="/about" className="mobile-home-page">
             James
             <br />
             Andrews

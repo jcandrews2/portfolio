@@ -16,8 +16,8 @@ const DesktopNavbar = () => {
               to="/about"
               className={
                 location.pathname === '/about'
-                  ? 'home-page active'
-                  : 'home-page'
+                  ? 'desktop-home-page active'
+                  : 'desktop-home-page'
               }
             >
               James

@@ -3,6 +3,9 @@ import '../styles/About.css';
 import tuneLinkVideo from '../media/tune-link.mov';
 import wordleCloneVideo from '../media/wordle-clone.mov';
 import spellCheckVideo from '../media/spell-check.mov';
+import tuneLinkImage from '../media/tune-link.jpg';
+import wordleCloneImage from '../media/wordle-clone.jpg';
+import spellCheckImage from '../media/spell-check.jpg';
 import ProjectCard from './ProjectCard';
 import ArtGallery from './ArtGallery';
 import Divider from './Divider';
@@ -29,30 +32,30 @@ const About = () => {
           className="bio-image"
         />
         <p>
-          Hi! My name is James Andrews— but I go by Jimmy. I'm an aspiring
+          Hi! My name is James Andrews—but I go by Jimmy. I'm an aspiring
           software developer originally from Kansas City. Currently, I'm a
-          senior at Colorado College (CC) where I'm pursuing a Bachelor's degree
-          in Computer Science and a minor in Mathematics. I took my first coding
-          class in high school. Despite not knowing anything about the subject
-          going in, I quickly grew fond of it. I'm a builder and problem-solver
-          at heart, and I love that programming gives me the toolset to solve
-          real problems. I'm most passionate about full stack web development
-          and machine learning, and I'm eager to deepen my expertise in one of
-          these fields as I transition into my career following graduation this
-          spring.
+          senior at Colorado College (CC), where I'm pursuing a bachelor's
+          degree in computer science and a minor in mathematics. I took my first
+          coding class in high school. Despite not knowing anything about the
+          subject going in, I quickly grew fond of it. I'm a builder and
+          problem-solver at heart, and I love that programming gives me the
+          toolset to solve real problems. I'm most passionate about front-end
+          web development and machine learning, and I'm eager to deepen my
+          expertise in one of these fields as I transition into my career
+          following graduation this spring.
           <br />
           <br />
           I thrive in collaborative environments where I can combine my
           technical skills with my creativity and organizational skills. I've
           demonstrated these skills at CC through the projects I've undertaken
-          and during my internships as a Software Engineer and Project
-          Coordinator. Beyond academics, I'm also a dedicated athlete as a
+          and during my internships as a software engineer and project
+          coordinator. Beyond academics, I'm also a dedicated athlete as a
           member of CC's DIII tennis team.
           <br />
-          <br />I created this website using React.js, Javascript, HTML, and
+          <br />I created this website using React.js, JavaScript, HTML, and
           CSS. Please feel free to explore it to learn more about my
           professional experience, projects, and interests. I'm always open to
-          connecting, so don't hesitate to reach out via my phone number, email
+          connecting, so don't hesitate to reach out via my phone number, email,
           or LinkedIn!
         </p>
       </section>
@@ -66,6 +69,7 @@ const About = () => {
           <ProjectCard
             title="Tune Link"
             description="Music Recommendation Platform."
+            image={tuneLinkImage}
             video={tuneLinkVideo}
             technologies={tech_1}
             repo="https://github.com/jcandrews2/tune-link"
@@ -73,6 +77,7 @@ const About = () => {
           <ProjectCard
             title="Wordle Clone"
             description="Word Guessing Game Remake."
+            image={wordleCloneImage}
             video={wordleCloneVideo}
             technologies={tech_2}
             repo="https://github.com/jcandrews2/wordle-clone"
@@ -80,6 +85,7 @@ const About = () => {
           <ProjectCard
             title="Spell Check"
             description="Spelling Correction Tool."
+            image={spellCheckImage}
             video={spellCheckVideo}
             technologies={tech_3}
             repo="https://github.com/jcandrews2/spell-check"

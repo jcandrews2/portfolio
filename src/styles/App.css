@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&display=swap');
 
+html {
+    background-color: white;
+}
+
 .app { 
     display: flex;
     min-height: 100vh;

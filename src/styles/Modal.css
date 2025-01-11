@@ -2,6 +2,12 @@
     cursor: pointer;
 }
 
+.thumbnail { 
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 .media-modal-overlay {
     position: fixed;
     top: 0; 

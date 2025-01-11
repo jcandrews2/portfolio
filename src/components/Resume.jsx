@@ -41,7 +41,7 @@ const Resume = () => {
       <section className="education-container">
         <h2>Work Experience</h2>
         <div>
-          <h3>Digital Products Intern</h3>
+          <h3>Software Engineer Intern</h3>
           <p>
             Andrews McMeel Universal | Kansas City, MO | July 2022 – August 2022
           </p>
@@ -272,9 +272,9 @@ const Resume = () => {
         <h2>Skills and Interests</h2>
         <div>
           <h3>Languages</h3>
-          <p>Python, Java, C, Javascript, HTML, CSS, MySQL, MongoDB</p>
+          <p>Python, Java, C, Javascript, HTML, CSS, MySQL</p>
           <h3>Tools/Frameworks</h3>
-          <p>React.js, Jira, Confluence, Agile methodologies</p>
+          <p>React.js, Git, Jira, Confluence, Agile methodologies</p>
           <h3>Extracurriculars</h3>
           <p>
             Computer Science Grader, Research Assistant, DIII Varsity Tennis,

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { IoMdClose } from 'react-icons/io';
 
-const VideoModal = ({ videoSrc }) => {
+const VideoModal = ({ videoSrc, thumbnailSrc }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleMediaClick = () => {
@@ -15,9 +15,10 @@ const VideoModal = ({ videoSrc }) => {
 
   return (
     <div>
-      <video
-        src={videoSrc}
-        className="media"
+      <img
+        src={thumbnailSrc}
+        alt="thumbnail"
+        className="thumbnail media"
         onClick={handleMediaClick}
         onTouchStart={handleMediaClick}
       />
