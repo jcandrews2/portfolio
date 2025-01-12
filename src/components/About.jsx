@@ -32,17 +32,17 @@ const About = () => {
           className="bio-image"
         />
         <p>
-          Hi! My name is James Andrews—but I go by Jimmy. I'm an aspiring
-          software developer originally from Kansas City. Currently, I'm a
-          senior at Colorado College (CC), where I'm pursuing a bachelor's
-          degree in computer science and a minor in mathematics. I took my first
-          coding class in high school. Despite not knowing anything about the
-          subject going in, I quickly grew fond of it. I'm a builder and
-          problem-solver at heart, and I love that programming gives me the
-          toolset to solve real problems. I'm most passionate about front-end
-          web development and machine learning, and I'm eager to deepen my
-          expertise in one of these fields as I transition into my career
-          following graduation this spring.
+          Hi! My name is James Andrews—but I go by Jimmy. I'm a software
+          developer originally from Kansas City. Currently, I'm a senior at
+          Colorado College (CC), where I'm pursuing a bachelor's degree in
+          computer science and a minor in mathematics. I took my first coding
+          class in high school. Despite not knowing anything about the subject
+          going in, I quickly grew fond of it. I'm a builder and problem-solver
+          at heart, and I love that programming gives me the toolset to solve
+          real problems. I'm most passionate about frontend web development and
+          machine learning, and I'm eager to deepen my expertise in one of these
+          fields as I transition into my career following graduation this
+          spring.
           <br />
           <br />
           I thrive in collaborative environments where I can combine my
