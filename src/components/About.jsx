@@ -47,7 +47,7 @@ const About = () => {
           <br />
           I thrive in collaborative environments where I can combine my
           technical skills with my creativity and organizational skills. I've
-          demonstrated these skills at CC through the projects I've undertaken
+          demonstrated these skills at CC, through the projects I've undertaken,
           and during my internships as a software engineer and project
           coordinator. Beyond academics, I'm also a dedicated athlete as a
           member of CC's DIII tennis team.
