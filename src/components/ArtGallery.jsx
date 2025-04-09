@@ -11,6 +11,8 @@ const artImages = [
   { src: require('../media/Art_6.jpg'), alt: 'Artwork 6' },
   { src: require('../media/Art_7.jpg'), alt: 'Artwork 7' },
   { src: require('../media/Art_8.jpg'), alt: 'Artwork 8' },
+  { src: require('../media/Art_9.jpg'), alt: 'Artwork 9' },
+  { src: require('../media/Art_10.jpg'), alt: 'Artwork 10' },
 ];
 
 const ArtGallery = () => {
@@ -21,6 +23,7 @@ const ArtGallery = () => {
       <div className="row">
         <div className="column">
           <ImageModal imageSrc={artImages[0].src} altText={artImages[0].alt} />
+          <ImageModal imageSrc={artImages[8].src} altText={artImages[8].alt} />
         </div>
         <div className="column">
           <ImageModal imageSrc={artImages[1].src} altText={artImages[1].alt} />
@@ -32,6 +35,7 @@ const ArtGallery = () => {
           <ImageModal imageSrc={artImages[4].src} altText={artImages[4].alt} />
           <ImageModal imageSrc={artImages[5].src} altText={artImages[5].alt} />
           <ImageModal imageSrc={artImages[6].src} altText={artImages[6].alt} />
+          <ImageModal imageSrc={artImages[9].src} altText={artImages[9].alt} />
         </div>
       </div>
     </section>

@@ -8,6 +8,8 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiPython,
+  SiFlask,
+  SiMysql,
 } from 'react-icons/si';
 
 const IconRenderer = ({ technologies }) => {
@@ -29,6 +31,8 @@ const IconRenderer = ({ technologies }) => {
     'MongoDB': <SiMongodb size={30} />,
     'Node.js': <SiNodedotjs size={30} />,
     'Python': <SiPython size={30} />,
+    'Flask': <SiFlask size={30} />,
+    'MySQL': <SiMysql size={30} />,
   };
 
   return (
