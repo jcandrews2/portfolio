@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/About.css';
 import tuneLinkVideo from '../media/tune-link.mov';
-import afkTrackerVideo from '../media/afk-tracker.mov';
+import afkTrackerVideo from '../media/afk-tracker2.mov';
 import spellCheckVideo from '../media/spell-check.mov';
 import tuneLinkImage from '../media/tune-link.jpg';
 import afkTrackerImage from '../media/afk-tracker.jpg';
