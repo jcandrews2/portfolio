@@ -18,119 +18,140 @@ const Resume = () => {
 
       <section className="education-container">
         <h2>Education</h2>
-        <div>
-          <h3>Colorado College</h3>
-          <p>Colorado Springs, CO</p>
-          <p>B.A. in Computer Science, Minor: Math</p>
-          <p>Graduating May 2025</p>
-          <p>
-            <b>3.89/4.00</b> Cumulative GPA, <b>3.95/4.00</b> Major Specific GPA
-            | Dean's List
-          </p>
-          <p>
-            <b>Relevant Coursework:</b> Data Structures and Algorithms, Software
-            Design, Theory and Practice of Database Management, Natural Language
-            Processing, Optimization and Deep Learning, Computer Organization
-          </p>
-
-          <h2>Skills</h2>
-          <div>
-            <h3>Languages</h3>
-            <p>Python, Java, C, JavaScript, HTML, CSS, MySQL</p>
-            <h3>Tools/Frameworks</h3>
-            <p>React.js, Git, Jira, Confluence, Agile, Cursor, Claude</p>
+        <div className="experience-item">
+          <div className="header-row">
+            <h3>Colorado College</h3>
+            <span className="location-date">Colorado Springs, CO</span>
           </div>
+          <p>Bachelor of Arts in Computer Science with Distinction</p>
+          <p>Minor in Math</p>
+          <p>Graduated May 2025</p>
+          <p className="gpa-line">
+            <b>3.90/4.00 GPA</b> | Cum Laude
+          </p>
+        </div>
+      </section>
+
+      <Divider />
+
+      <section className="skills-container">
+        <h2>Skills</h2>
+        <div>
+          <h3>Languages</h3>
+          <p>Python, Typescript/JavaScript, Java, SQL, C, HTML, CSS</p>
+          <h3>Libraries & Frameworks</h3>
+          <p>
+            React, Spring Boot, Flask, Express, Node, Tailwind, NumPy, REST API
+          </p>
+          <h3>Tools & Methodologies</h3>
+          <p>
+            Git/Github, Docker, AWS EC2, MySQL, PostgreSQL, MongoDB, Jira,
+            Agile, Cursor
+          </p>
         </div>
       </section>
 
       <Divider />
 
       <section className="experience-container">
-        <h2>Work Experience</h2>
+        <h2>Relevant Work Experience</h2>
 
-        <div>
-          <h3>Research Assistant</h3>
-          <p>
-            Colorado College | Colorado Springs, CO | December 2024 - Present
-          </p>
+        <div className="experience-item">
+          <div className="header-row">
+            <div className="header-row-content">
+              <h3 className="company-name">Colorado College</h3>
+              <p className="job-title">Undergraduate Research Assistant</p>
+            </div>
+            <span className="location-date">January 2025 - May 2025</span>
+          </div>
           <ul>
             <li>
-              Building a web-scraper in <b>Python</b> to collect data for
-              research on the perception of robot gender
+              Scraped 250+ active robot webpages using Playwright to support
+              research on gendered language in robotics
+            </li>
+            <li>
+              Developed a Python program to aggregate gendered pronoun data
+              using LingMess for coreference resolution
             </li>
           </ul>
         </div>
 
-        <div>
-          <h3>Project Coordinator - Product and Technology Intern</h3>
-          <p>T-Mobile | Overland Park, KS | May 2023 - August 2023</p>
+        <div className="experience-item">
+          <div className="header-row">
+            <div className="header-row-content">
+              <h3 className="company-name">Colorado College</h3>
+              <p className="job-title">Computer Science Grader</p>
+            </div>
+            <span className="location-date">August 2024 - May 2025</span>
+          </div>
           <ul>
             <li>
-              Produced and shared daily task reports that contributed to a
-              <b> 50% reduction</b> in overdue production support tickets
+              Assessed coding assignments against learning objectives for an
+              introductory CS course
             </li>
             <li>
-              Gained proficiency in the CyberArk onboarding process and
-              <b> assisted 40+</b> employees with secure account setup,
-              unblocking them to continue work
-            </li>
-            <li>
-              Maintained <b>Jira</b> documentation for the Identity Security
-              Access Management (ISAM) team
+              Provided constructive feedback offering insights on code
+              correctness and style to 30+ students
             </li>
           </ul>
         </div>
 
-        <div>
-          <h3>Software Engineer Intern</h3>
-          <p>
-            Andrews McMeel Universal | Kansas City, MO | July 2022 - August 2022
-          </p>
+        <div className="experience-item">
+          <div className="header-row">
+            <div className="header-row-content">
+              <h3 className="company-name">T-Mobile</h3>
+              <p className="job-title">
+                Project Coordinator - Product and Technology Intern
+              </p>
+            </div>
+            <span className="location-date">May 2023 - August 2023</span>
+          </div>
           <ul>
             <li>
-              Refactored global buttons and alerts components using
-              <b> React.js</b>, <b>JavaScript</b>, <b>HTML</b>, and <b>CSS </b>
-              for the new GoComics.com website
+              Produced daily task reports that contributed to a 50% reduction in
+              overdue production support tickets
             </li>
             <li>
-              Researched and implemented Prism to <b>mock API data </b> for the
-              frontend team
+              Unblocked 40+ technical employees by assisting them with secure
+              account setup on CyberArk
             </li>
             <li>
-              Found and logged bugs for Kenken and Thematik games on
-              PuzzleSociety.com
+              Wrote Confluence documentation for reference in resolving common
+              issues for Identity Access Management
             </li>
             <li>
-              Shadowed DevOps onboarding meetings to understand cloud-hosting
-              and CI/CD pipelines
+              Tracked work for 10+ contractors in Jira to ensure accurate
+              monthly wages
             </li>
           </ul>
         </div>
 
-        <div>
-          <h3>Computer Science Grader</h3>
-          <p>Colorado College | Colorado Springs, CO | August 2024 - Present</p>
-        </div>
-
-        <div>
-          <h3>Tennis Professional</h3>
-          <p>Woodside | Kansas City, KS | June 2024 - August 2024</p>
-        </div>
-
-        <div>
-          <h3>Tennis Instructor</h3>
-          <p>
-            Indian Hills Country Club | Mission Hills, KS | June 2021 - August
-            2021
-          </p>
-        </div>
-
-        <div>
-          <h3>Volunteer</h3>
-          <p>
-            St. Paul's Food Pantry | Kansas City, MO | January 2017 - December
-            2020
-          </p>
+        <div className="experience-item">
+          <div className="header-row">
+            <div className="header-row-content">
+              <h3 className="company-name">Andrews McMeel Universal</h3>
+              <p className="job-title">Software Engineer Intern</p>
+            </div>
+            <span className="location-date">July 2022 - August 2022</span>
+          </div>
+          <ul>
+            <li>
+              Refactored React button and alert components to improve
+              consistency for GoComic's 5M+ monthly users
+            </li>
+            <li>
+              Researched and implemented Prism to mock API responses,
+              facilitating faster frontend development
+            </li>
+            <li>
+              Discovered and logged 4 critical bugs in Kenken and Thematik games
+              on the PuzzleSociety website
+            </li>
+            <li>
+              Shadowed DevOps to build foundational knowledge of cloud hosting
+              and CI/CD pipeline processes
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -139,178 +160,96 @@ const Resume = () => {
       <section className="projects-container">
         <h2>Projects</h2>
 
-        <div>
-          <h3>AFK Tracker - Esports Stat Tracking Platform</h3>
-          <p>
-            <a
-              href="https://github.com/jcandrews2/senior-capstone-project"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Repository
-            </a>
-          </p>
+        <div className="project-item">
+          <div className="header-row">
+            <div className="header-row-content">
+              <h3>
+                Vibesbased | AI-Powered Text-to-Music Recommendation Web App
+              </h3>
+              <p className="tech-stack">
+                React, Typescript, Tailwind CSS, Zustand, Java, Spring Boot,
+                PostgreSQL, Docker, AWS EC2, AWS Route 53, Caddy
+              </p>
+            </div>
+            <div className="project-links">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Website
+              </a>
+              {' | '}
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
+            </div>
+          </div>
           <ul>
             <li>
-              Developed a stat tracking website for the{' '}
-              <b>Southern Collegiate Athletic Conference (SCAC)</b>, enabling
-              teams to upload video game endgame reports to be processed with
-              OCR and displayed for analysis
+              Developed a recommendation pipeline combining OpenAI's, Spotify's,
+              and LastFM's APIs with heuristics
             </li>
             <li>
-              Built features with <b> React.js</b>, <b>JavaScript</b>,
-              <b> HTML</b>, <b>CSS</b>, <b>Flask</b>, <b>Python</b>, and
-              <b> MySQL</b>
-            </li>
-            <li>Designed the user interface using Figma</li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Tune Link - Music Recommendation Platform</h3>
-          <p>
-            <a
-              href="https://github.com/jcandrews2/tune-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Repository
-            </a>
-          </p>
-          <ul>
-            <li>
-              Built a full-stack web app that integrates <b>Spotify</b> and
-              <b> OpenAI APIs</b> for music recommendations
+              Designed and implemented an animated music player using Spotify's
+              Web SDK and Framer Motion
             </li>
             <li>
-              Used <b>MongoDB</b> and <b>Express.js</b> for backend storage and
-              data retrieval
-            </li>
-            <li>
-              Created a responsive UI using <b>React.js</b>, <b>JavaScript</b>,
-              <b> HTML</b>, and <b>Tailwind CSS</b>
+              Shipped the fully containerized application to serve 100+ unique
+              users
             </li>
           </ul>
         </div>
 
-        <div>
-          <h3>Spell Check - Spelling Correction Tool</h3>
-          <p>
-            <a
-              href="https://github.com/jcandrews2/spell-check"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Repository
-            </a>
-          </p>
+        <div className="project-item">
+          <div className="header-row">
+            <div className="header-row-content">
+              <h3>AFK Tracker | Esports Stat Tracking Platform</h3>
+              <p className="tech-stack">
+                React, Javascript, Tailwind CSS, Python, Flask, MySQL, Azure VM
+              </p>
+            </div>
+            <div className="project-links">
+              <a
+                href="https://github.com/jcandrews2/senior-capstone-project"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
           <ul>
             <li>
-              Built a spelling correction tool in <b>Python</b> to suggest
-              similar words using Levenshtein distance and BK-tree
-            </li>
-            <li>Benchmarked performance across dictionary sizes</li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Wordle Clone - Word Guessing Game Remake</h3>
-          <p>
-            <a
-              href="https://github.com/jcandrews2/wordle-clone"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Repository
-            </a>
-          </p>
-          <ul>
-            <li>
-              Rebuilt Wordle using <b>React.js</b>, <b>JavaScript</b>,{' '}
-              <b>HTML</b>, and <b>CSS</b>
+              Developed a stat tracking platform for the Southern Collegiate
+              Athletic Conference's DIII esports league
             </li>
             <li>
-              Integrated a <b>JSON server</b> to manage and fetch word lists
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Portfolio Website</h3>
-          <p>
-            <a
-              href="https://github.com/jcandrews2/portfolio"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Repository
-            </a>
-          </p>
-          <ul>
-            <li>
-              Developed personal site using <b>React.js</b>, <b>JavaScript</b>,{' '}
-              <b>HTML</b>, and <b>CSS</b>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Particle Swarm Optimization Adaptation</h3>
-          <p>
-            <a
-              href="https://github.com/ColoradoCollege-MathCS/neural_tsp"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Repository
-            </a>
-          </p>
-          <ul>
-            <li>
-              Adapted and implemented <b>PSO</b> to solve{' '}
-              <b>Traveling Salesperson Problem (TSP)</b>
+              Automated the extraction and display of gameplay data to reduce
+              hours of manual input
             </li>
             <li>
-              Used <b>coordinate descent</b> and visualization to find optimal
-              PSO parameters
+              Built stat displays (weekly, monthly, seasonal) and the
+              account/roster management systems end to end
             </li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Frogger Game Adaptation</h3>
-          <p>
-            <a
-              href="https://github.com/mustafasameen/CrossyRoads"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Repository
-            </a>
-          </p>
-          <ul>
-            <li>
-              Built an adaptation of Frogger/Crossy Roads using <b>Java</b> and{' '}
-              <b>Java Swing</b>
-            </li>
+            <li>Led design of the full user interface in Figma</li>
           </ul>
         </div>
       </section>
 
       <Divider />
 
-      <section className="interests-container">
-        <h2>Interests</h2>
+      <section className="coursework-interests-container">
+        <h2>Coursework and Interests</h2>
         <div>
-          <h3>Extracurriculars</h3>
+          <h3>Relevant Coursework</h3>
           <p>
-            Computer Science Grader, Research Assistant, DIII Varsity Tennis,
-            Student Athlete Advisory Committee (SAAC)
+            Data Structures and Algorithms, Software Design, Theory and Practice
+            of Database Management, Natural Language Processing, Optimization
+            and Deep Learning, Computer Organization
           </p>
+          <h3>Extracurriculars</h3>
+          <p>DIII Varsity Tennis, Student Athlete Advisory Committee</p>
           <h3>Interests</h3>
           <p>
-            Front-end Development, Tennis, Machine Learning, Hiking, Skiing, 2D
-            Art, Chess, Ice Hockey
+            Full-stack Development, AI/ML, Tennis, Videogames, Drawing, Chess,
+            Ice Hockey
           </p>
         </div>
       </section>
