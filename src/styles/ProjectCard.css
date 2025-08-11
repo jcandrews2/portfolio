@@ -1,15 +1,12 @@
 .project-card {
-    border: 1px solid #ddd;
+    border: none;
     border-radius: 8px;
-    padding: 16px;
-    width: 30%; 
+    padding: 20px;
+    flex: 0 1 calc(33.333% - 16px);
     min-width: 300px;
-    box-sizing: border-box; 
-    transition: transform 0.3s ease;
-  }
-  
-  .project-card:hover {
-    transform: scale(1.05);
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
   
   .project-card video {
@@ -24,8 +21,22 @@
     margin-bottom: 16px;
   }
   
-  .project-card a {
-    color: #007bff;
+  .project-links {
+    margin-top: 16px;
+  }
+
+  .project-links a {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Overpass Mono', monospace;
+    text-decoration: none;
+  }
+
+  .project-links a:hover {
+    background-color: #0056b3;
   }
 
     

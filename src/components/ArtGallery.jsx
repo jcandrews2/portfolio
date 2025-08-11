@@ -19,7 +19,7 @@ const ArtGallery = () => {
   return (
     <section className="art-gallery-container">
       <h2>Artwork</h2>
-      <p>If you made it this far, here's some of my artwork!</p>
+      <p>If you made it this far, here's some of my artwork.</p>
       <div className="row">
         <div className="column">
           <ImageModal imageSrc={artImages[0].src} altText={artImages[0].alt} />

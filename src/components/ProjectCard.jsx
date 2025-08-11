@@ -20,9 +20,11 @@ const ProjectCard = (props) => {
         <IconRenderer technologies={technologies} />
       </div>
 
-      <a href={repo} target="_blank" rel="noopener noreferrer">
-        View Repository
-      </a>
+      <div className="project-links">
+        <a href={repo} target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      </div>
     </div>
   );
 };

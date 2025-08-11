@@ -1,8 +1,8 @@
 .resume-container {
   width: 80%;
   margin: 0 auto;
-  padding: 2rem;
-  padding-top: 6rem;
+  padding: 100px 0;
+  height: max-content;
 }
 
 .resume-container h1,
@@ -20,15 +20,21 @@
   margin: 0.5rem 0;
 }
 
+.download-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
 .resume-download {
   display: inline-block;
-  margin: 1rem 0;
-  padding: 0.5rem 1rem;
+  padding: 5px 15px;
   background-color: #007bff;
   color: white;
+  border-radius: 20px;
+  font-family: 'Overpass Mono', monospace;
   text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s;
 }
 
 .resume-download:hover {
@@ -37,7 +43,11 @@
 
 /* Common section styles */
 section {
-  margin: 2rem 0;
+  padding: 100px 0;
+}
+
+section:first-of-type {
+  padding-top: 0;
 }
 
 /* Header row styles */
@@ -71,7 +81,12 @@ section {
 }
 
 .header-row .location-date {
-  text-align: right;
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  font-family: 'Overpass Mono', monospace;
   margin: 0;
 }
 
@@ -93,15 +108,23 @@ section {
 
 .project-links {
   text-align: right;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
 }
 
 .project-links a {
-  color: #007bff;
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 20px;
+  font-family: 'Overpass Mono', monospace;
   text-decoration: none;
 }
 
 .project-links a:hover {
-  text-decoration: underline;
+  background-color: #0056b3;
 }
 
 .tech-stack {

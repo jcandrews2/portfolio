@@ -8,13 +8,15 @@ const Resume = () => {
     <div className="resume-container">
       <h1>Resume</h1>
 
-      <a
-        href={Andrews_James_Resume}
-        download="Andrews_James_Resume.pdf"
-        className="resume-download"
-      >
-        Download Resume
-      </a>
+      <section className="download-section">
+        <a
+          href={Andrews_James_Resume}
+          download="Andrews_James_Resume.pdf"
+          className="resume-download"
+        >
+          Download Resume
+        </a>
+      </section>
 
       <section className="education-container">
         <h2>Education</h2>
@@ -172,11 +174,18 @@ const Resume = () => {
               </p>
             </div>
             <div className="project-links">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                Website
+              <a
+                href="https://drive.google.com/file/d/1b4xA2UIHI--DB3OKLzutXjEec---Lpse/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Demo
               </a>
-              {' | '}
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/jcandrews2/vibesbased"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 GitHub
               </a>
             </div>

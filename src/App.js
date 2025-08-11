@@ -6,6 +6,7 @@ import MobileNavbar from './components/MobileNavbar';
 import About from './components/About';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Timeline from './components/Timeline';
 import { Route, Routes, Navigate } from 'react-router-dom';
 
 function App() {
